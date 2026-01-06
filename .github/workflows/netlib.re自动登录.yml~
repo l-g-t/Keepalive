@@ -1,8 +1,8 @@
 name: netlib.re自动登录
 
 on:
-  schedule:
-    - cron: "0 12 1 */2 *"  # 每两个月的第一天的 12:00 运行（UTC时间）
+  ##schedule:
+    ##- cron: "0 12 1 */2 *"  # 每两个月的第一天的 12:00 运行（UTC时间）
   workflow_dispatch:
 
 jobs:
