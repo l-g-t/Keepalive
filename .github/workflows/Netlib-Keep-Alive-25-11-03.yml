@@ -1,8 +1,8 @@
 name: Netlib-Keep-Alive-25-11-03Keep Alive Login
 
 on:
-  schedule:
-    - cron: "0 0 5,25 * *"  # 每月 5 号和 25 号凌晨0点
+  ##schedule:
+    ##- cron: "0 0 5,25 * *"  # 每月 5 号和 25 号凌晨0点
   workflow_dispatch:       # 支持手动触发
 
 jobs:
