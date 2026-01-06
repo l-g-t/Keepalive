@@ -1,8 +1,8 @@
 name: sap-login-botSAP BTP Auto Login (多账号版)
 
 on:
-  schedule:
-    - cron: "0 10 5,10,25 * *" # 每月5号、10号、25号 UTC 10:00执行
+  ##schedule:
+    ##- cron: "0 10 5,10,25 * *" # 每月5号、10号、25号 UTC 10:00执行
   workflow_dispatch:
 
 jobs:
