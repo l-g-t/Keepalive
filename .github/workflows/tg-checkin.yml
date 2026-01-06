@@ -1,8 +1,8 @@
 name: TG 多频道自动签到
 on:
   workflow_dispatch: # 允许手动触发
-  schedule:
-    - cron: '10 0 * * *'
+  ##schedule:
+    ##- cron: '10 0 * * *'
 
 jobs:
   multi_checkin:
